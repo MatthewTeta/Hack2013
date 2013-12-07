@@ -1,14 +1,22 @@
-<!DOCTYPE html>
-<html>
-<head>
-	<title>Twin Peaks Mall Points Information</title>
-	<link rel="stylesheet" type="text/css" href="stylesheet.css">
-	<script src="//code.jquery.com/jquery-1.10.2.min.js"></script>
-	<script src="code.js"></script>
-</head>
+<a>
+			<div id="help">
+				<p>Help</p>
+			</div>
+		</a>
+		<a>
+			<div id="code">
+				<p>Enter code</p>
+			</div>
+		</a>
+		<a>
+			<div id="home">
+				<p>Home</p>
+			</div>
+		</a>
 
-<body>
-	<div id="title">
+
+
+		<div id="title">
 		<h1>Welcome to the Twin Peaks Mall Points Information Page!</h1>
 	</div>
 	<div id="menu">
@@ -27,5 +35,3 @@
 			<p>this is a filler</p>
 		</div>
 	</div>
-</body>
-</html>
