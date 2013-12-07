@@ -17,7 +17,31 @@ body {
 	background-color: #ffaa20;
 }
 
+#menu *{
+	background-color: #44ff00;
+	text-align: center;
+	display: inline-block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#help:hover {
+	background-color: #0088ff;
+}
+
+#code:hover {
+	background-color: #0088ff;
+}
+
+#home:hover {
+	background-color: #0088ff;
+
+}
+
 #menu {
 	background-color: #44ff00;
 	text-align: center;
+	display: inline-block;
+	margin-left:auto;
+	margin-right:auto;
 }
