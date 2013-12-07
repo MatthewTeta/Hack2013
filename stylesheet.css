@@ -10,11 +10,11 @@ body {
 	margin: 0 auto;
 }
 
-/*#menu *{
+#menu *{
 	background-color: #2ecc71;
 	text-align: center;
 	display: inline-block;
-}*/
+}
 
 #tabs-1:hover {
 	background-color: #1abc9c;
