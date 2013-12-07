@@ -5,7 +5,7 @@ h1 {
 #title {
 	background-color: #00aacc;
 	text-align: center;
-	border-radius: 50px;
+	border-radius: 20px;
 	width: 500px;
 }
 
@@ -35,7 +35,6 @@ body {
 
 #home:hover {
 	background-color: #0088ff;
-
 }
 
 #menu {
