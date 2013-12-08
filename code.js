@@ -3,6 +3,10 @@ var pts = 0;
 var asdfUsed = 0;
 var qwertyUsed = 0;
 
+$(document).ready(function() {
+	$("#points").append("0");
+});
+
 function codeTest() {
 	code = document.getElementById('code');
 	if(code.value == "asdf")

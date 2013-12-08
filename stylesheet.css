@@ -16,21 +16,25 @@ body {
 	display: inline-block;
 }
 
-#tabs-1:hover {
-	background-color: #1abc9c;
+#home {
+	padding-left: 10px;
+	padding-right: 50px;
 }
 
-#tabs-2:hover {
-	background-color: #1abc9c;
+#code {
+	padding-left: 50px;
+	padding-right: 50px;
 }
 
-#tabs-2:hover {
-	background-color: #1abc9c;
+#help {
+	padding-left: 50px;
+	padding-right: 10px;
 }
 
 #menu {
-	background-color: #27ae60;
+	background-color: #2ecc71;
 	text-align: center;
 	display: inline-block;
 	margin: 0 auto;
+	padding: 10px 10px 10px 10px;
 }
