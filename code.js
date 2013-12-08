@@ -10,6 +10,10 @@ function codeTest() {
 		if (asdfUsed == 0) {
 			pts = pts + 1;
 			alert(pts);
+			$(document).ready(function() {
+				$('#points').empty();
+				$("#points").append("<p>" + pts + "</p>");
+			});
 		} else {
 			alert("You have already used that code!")
 		}
@@ -18,13 +22,13 @@ function codeTest() {
 		if (qwertyUsed == 0) {
 			pts++;
 			alert(pts);
+			$(document).ready(function() {
+				$('#points').empty();
+				$("#points").append("<p>" + pts + "</p>");
+			});
 		} else {
 			alert("you hava already used that code!");
 		}
 		qwertyUsed = 1;
 	}
 }
-
-$(document).ready(function() {
-	$("#points").append(pts);
-});
