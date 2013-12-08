@@ -1,7 +1,11 @@
-$(document).ready(function() {
-	$("#gobutton").click(function() {
-		for (var i = 0; i < 25; i++) {
-			alert(i);
-		}
-	});
-});
+var code = 0;
+var pts = 0
+
+function codeTest() {
+	code = document.getElementById('code');
+	if(code == "asdf")
+	{
+		pts++;
+		alert("it works");
+	}
+}
